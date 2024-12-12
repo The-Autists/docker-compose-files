@@ -46,12 +46,12 @@ volumes:
 
 secrets:
   nextcloud_admin_password:
-    file: ./.nextcloud-secrets/nextcloud_admin_password.txt # put admin password in this file
+    file: ./nextcloud-secrets/nextcloud_admin_password.txt # put admin password in this file
   nextcloud_admin_user:
-    file: ./.nextcloud-secrets/nextcloud_admin_user.txt # put admin username in this file
+    file: ./nextcloud-secrets/nextcloud_admin_user.txt # put admin username in this file
   postgres_db:
-    file: ./.nextcloud-secrets/postgres_db.txt # put postgresql db name in this file
+    file: ./nextcloud-secrets/postgres_db.txt # put postgresql db name in this file
   postgres_password:
-    file: ./.nextcloud-secrets/postgres_password.txt # put postgresql password in this file
+    file: ./nextcloud-secrets/postgres_password.txt # put postgresql password in this file
   postgres_user:
-    file: ./.nextcloud-secrets/postgres_user.txt # put postgresql username in this file
+    file: ./nextcloud-secrets/postgres_user.txt # put postgresql username in this file
